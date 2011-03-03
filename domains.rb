@@ -6,7 +6,7 @@ dictionary = File.read('/usr/share/dict/words').split("\n").select{|d| d.size ==
 dictionary.each do |word|
 	domain_names.push("#{word}#{root_word}.com")
 end
-system("touch #{root_word}.txt"}
+system("touch #{root_word}.txt")
 names = File.open("#{root_word}.txt", 'w')
 domain_names.each do |name|
 	names.write("#{name}\n")

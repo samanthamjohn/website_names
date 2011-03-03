@@ -2,10 +2,10 @@ This is a short ruby script to generate a domain name for your website.
 
 It was inspired by Yipit: http://www.businessinsider.com/how-we-used-a-python-script-to-find-our-domain-name-yipit-2010-12
 
-EXAMPLE: 
+exaMPLE: 
 	>> (sudo) chmod a+x domains.rb
 	>> ./domains.rb ly 3
-		--returns ly.txt with a list of domain names beginning with 3 letter words and ending with 'ly.com'
+		--returns ly.txt with a list of domain names beginning with 3 letter words and ending with 'ly.com
 
 It takes in as the first argument a root word and the second argument the length of word you want to add to the root
 
