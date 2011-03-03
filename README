@@ -1,0 +1,15 @@
+This is a short ruby script to generate a domain name for your website. 
+
+It was inspired by Yipit: http://www.businessinsider.com/how-we-used-a-python-script-to-find-our-domain-name-yipit-2010-12
+
+It takes in as the first argument a root word and the second argument the length of word you want to add to the root
+
+It will output a textfile named #{root_word}.txt with a generated domain name on each line
+
+The domain name is an n-letter word + the root word where n is the second input argument to the script (default is 3) 
+Caution: this will only work on a unix system (mac or linux) as it uses /usr/share/dict/words to get the word list. I'm not sure what you do for windows. 
+
+You can then try godaddy's bulk uploader to check which domain names are available
+
+
+
